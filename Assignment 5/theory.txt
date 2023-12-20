@@ -1,0 +1,2 @@
+block level element <covers the whole line>
+inline element covers only content space
