@@ -1,18 +1,19 @@
-.div {
+.div, :hover {
     background-color: rgb(215, 224, 128);
     box-sizing: border-box;
     text-align: center;
     transform: scale(1,2);
+    transition: transform 1s linear ;
 } 
     
 
-li , :hover {
+li  {
  display: inline-block; 
  padding-left: 4px;
  padding-right: 4px;
  
  cursor: pointer;
- transition: transform 1s linear ;
+ 
  
 }
 
